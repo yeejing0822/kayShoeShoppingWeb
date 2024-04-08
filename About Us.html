@@ -1,0 +1,106 @@
+<html>
+
+<head>
+	<link rel="shortcut icon" href="img/logo_image.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="css/aboutusStyle.css"> 
+
+   <style>
+	*{
+		background-color:lightyellow;
+		
+	}
+   </style>
+</head>
+<body>     
+   <!-- about us section start -->
+	<section class="about" id="about">
+		<div class ="aboutSection">
+			<h1 class="title">About Us</h1>
+			<img src ="img/logo_image.png" alt="shoe logo" class="center" width="200px" height="100px">
+		</div>
+		<div class ="text">Kay's Shoe</div>
+		<h3 class="objective">Our Objective</h3>
+		<p>Kay's Shoe objective is to achieve qualitative and sustainable growth. </p> 
+		<h3 class="background">Background</h3>
+		<p>Kay's Shoe is a new brand of selling shoes in year 2020. </p>
+		<p>We started with online selling by using the online platform to achieve its company's objective.</p> 
+		<div class="keywords">
+			<span>Confidence</span>
+			<span>Comfortable</span>
+			<span>Charming</span>
+		</div>
+		<h2 style="text-align:center;padding:40px">Our Team</h2>
+		  
+		  <div class="aboutteam">
+		  
+		  <div class="aboutteam_">
+			<img src="img/alex.jpg" style="width:25%;height:50%;display:block;margin-left: auto;margin-right: auto;">
+			<div class="name">
+			  Alex Kok
+			</div>
+		  </div>
+		  
+		  <div class="aboutteam_">
+			<img src="img/yin.jpg" style="width:25%;height:50%;display:block;margin-left: auto;margin-right: auto;">
+			<div class="name">
+			  Chong Ji Yin
+			</div>
+		  </div>
+		  
+		  <div class="aboutteam_">
+			<img src="img/loong.jpg"  style="width:25%;height:50%;display:block;margin-left: auto;margin-right: auto;">
+			<div class="name">
+			  Ng Kien Loong
+			</div>
+		  </div>
+		  
+		  <div class="aboutteam_">
+			<img src="img/yao.jpg"  style="width:25%;height:50%;display:block;margin-left: auto;margin-right: auto;">
+			<div class="name">
+			  Siew Shun Yao
+			</div>
+		  </div>
+		  
+		  <div class="aboutteam_">
+			<img src="img/jing.jpg"  style="width:25%;height:50%;display:block;margin-left: auto;margin-right: auto;">
+			<div class="name">
+			  Wong Yee Jing
+			</div>
+		  </div>
+		  
+		  <div class="buttons">
+		  <button class="button" onclick="plusDivs(-1)" >&#10094;</button>
+		  <button class="button" onclick="plusDivs(1)" >&#10095;</button>
+	
+		  </div>
+		  </div>
+
+		  <script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+			
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+			
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("aboutteam_");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				 x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";
+			}
+			</script>
+
+	</section>
+</body>
+</html>
+
+
+           

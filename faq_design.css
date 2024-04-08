@@ -1,0 +1,71 @@
+*{
+	background-color: black;
+	font-family: "Lato", sans-serif;
+	font-family: cursive;
+	color: white;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#top_panel{
+	padding-top: 150px;
+	padding-bottom: 20px;
+	background-image: url("../img/faq_background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+#myInput {
+	background-image: url('../img/search_icon.png');
+	background-size : 20px 20px;
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 50%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+	color: white;
+	border: none;
+}
+#btn-search{
+	padding: 6px 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #EC008c;
+	color: #fff;
+	text-transform: uppercase;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+#ease_list{
+	margin: auto;
+	margin-top: 15px;
+	width: 60%;
+	border: 3px solid #73AD21;
+	padding: 20px;
+	border-color: white;
+}
+#ease_list ul{
+	list-style-type: square;
+}
+#top_list, #search_list, #footer{
+	margin: 10px;
+	padding: 10px;
+}
+#search_list {
+	display: none;
+}
+#search_list li a {
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	margin-left: -40px;
+	padding: 12px;
+	font-size: 18px;
+	display: block;
+}
